@@ -113,7 +113,9 @@ const Model = (props: any) => {
                                     </FormControl>
                                 </Grid>
                                 <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                                    <Button variant="contained" type="submit">Submit</Button>
+                                    <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
+                                        <Button variant="contained" onClick={handleClose} type="button">Close</Button> &nbsp; <Button variant="contained" type="submit">Submit</Button>
+                                    </Grid>
                                 </Grid>
                             </Grid>
 
